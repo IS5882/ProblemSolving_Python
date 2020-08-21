@@ -1,4 +1,6 @@
 #https://leetcode.com/discuss/interview-question/797724/Google-Online-Challenge-Intern-2021-(Coding-Questions-%3A-2-or-Time-%3A-60-mins)
+#Space O(N) 
+#Note: The following solution isnt the most optimum as it can result in Time Complexity O(n*m) --> best solution would be to use Trie for XOR
 def queries(T,Q,query):
 
     list=[0]
