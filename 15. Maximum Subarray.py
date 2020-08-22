@@ -53,7 +53,7 @@ def maxSubarray(nums,K):
             if (total == findSum):
                 #minDeletion=min(len(nums)-i,minDeletion)
                 print('Sum is found between 0 and ',i)
-                minDeletion = min(i, minDeletion)
+                minDeletion = min(i+1, minDeletion)
                 #print('minDeletion is now is',minDeletion)
             # check if 'sum-k' is present in
             # mydict or not
