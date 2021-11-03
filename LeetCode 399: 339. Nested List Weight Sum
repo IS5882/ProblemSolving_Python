@@ -69,7 +69,7 @@ Output: 0
 #        Return None if this NestedInteger holds a single integer
 #        :rtype List[NestedInteger]
 #        """
-
+```
 class Solution:
     def depthSum(self, nestedList: List[NestedInteger]) -> int:
         totalW=0
@@ -85,4 +85,4 @@ class Solution:
                     nl=l[i].getList()
                     q.append((nl,depth+1))
         return totalW
-            
+          ```  
